@@ -1,4 +1,17 @@
-Package: com.opennotifications.tweak
+Package: com.trianglesoftware.TechMonthly
+Name: TechMonthly for ios 5
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: debs/Com.trianglesoftware.techmonthly_1.0_iphoneos-arm.deb
+Size: 316956
+MD5sum: 0ffa2023172522f9b9746061ac940d17
+SHA1: ecae32ddd2a85d3ee21f3209fbc1d7c51990da25
+SHA256: 34b40bd067b3146ddf0245de42def3bddd697be23d9193f0c947c9a004dfbabf
+Section: Tweaks
+Description: A techmonthly client for ios 5+
+
+Package: com.opennotifications
 Name: Opennotifications
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -9,10 +22,10 @@ MD5sum: 981cd6972ac21f64d2d688a7a8e22ff9
 SHA1: 3eea49e8bae3f1f957a269a7d79112f733007104
 SHA256: 691971ba586b83ed8304ceefe2ee85dbc043e566e254915d61b9820e856639b2
 Section: Tweaks
-Description: Allows you to send yourself and call message notifications
+Description: Allows you to send message and call notifications to yourself
 
-Package: com.trianglesoftware.DunkinWeb
-Name: LegacyDonuts
+Package: com.trianglesoftware.dunkinweb
+Name: Legacydonuts
 Version: 1.0.0
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, firmware (>= 5.0)
@@ -22,5 +35,4 @@ MD5sum: 926e145fdc00b89016187fe004d538ab
 SHA1: 7153ad43de12419bbbd624321970f1c00547cc0b
 SHA256: 965df58688fee43b98737dfa788f651597d83a2a3db8cbaa855bed0aa918af8f
 Section: Tweaks
-Description: Fixes dunkin app on ios 5+
-
+Description: Dunkin App clone

@@ -74,10 +74,10 @@
                         <div class="section-title">Add to Package Manager</div>
                         <div class="table-group">
                             <div class="table-row row-static" style="font-weight: bold;">Erepo</div>
-                            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://bobchatcentral.github.io/" class="table-row row-link main-row-link">Add to Cydia</a>
-                            <a href="sileo://source/https://bobchatcentral.github.io/" class="table-row row-link main-row-link">Add to Sileo</a>
-                            <a href="zbra://sources/add/https://bobchatcentral.github.io/" class="table-row row-link main-row-link">Add to Zebra</a>
-                            <a href="installer://add/https://bobchatcentral.github.io/" class="table-row row-link main-row-link">Add to Installer</a>
+                            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://bobchatcentral.github.io" class="table-row row-link main-row-link">Add to Cydia</a>
+                            <a href="sileo://source/https://bobchatcentral.github.io" class="table-row row-link main-row-link">Add to Sileo</a>
+                            <a href="zbra://sources/add/https://bobchatcentral.github.io" class="table-row row-link main-row-link">Add to Zebra</a>
+                            <a href="installer://add/https://bobchatcentral.github.io" class="table-row row-link main-row-link">Add to Installer</a>
                         </div>
                     </div>
                     
@@ -95,28 +95,37 @@
                         <div class="section-title">About Me</div>
                         <div class="table-group">
                             <div class="table-row row-static" style="padding: 15px 18px;">
-                                <span class="row-desc">I like old tech</span>
+                                <span class="row-desc">I am a developer and these are my tweaks</span>
                             </div>
                         </div>
                     </div>
                     <div class="dashboard-block block-featured">
                         <div class="section-title">Featured Packages</div>
                         <div class="table-group">
-                    <a onclick="switchPage('com-opennotifications-tweak-page')" class="table-row row-link main-row-link">
+                    <a onclick="switchPage('com-trianglesoftware-TechMonthly-page')" class="table-row row-link main-row-link">
+                        <div class="pkg-row-layout">
+                            <img src="icons/TechMonthly for ios 5.png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
+                            <div>
+                                TechMonthly for ios 5
+                                <span class="pkg-subtitle">A techmonthly client for ios 5+</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a onclick="switchPage('com-opennotifications-page')" class="table-row row-link main-row-link">
                         <div class="pkg-row-layout">
                             <img src="icons/Opennotifications.png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
                             <div>
                                 Opennotifications
-                                <span class="pkg-subtitle">Allows you to send yourself and call message notifications</span>
+                                <span class="pkg-subtitle">Allows you to send message and call notifications to yourself</span>
                             </div>
                         </div>
                     </a>
-                    <a onclick="switchPage('com-trianglesoftware-DunkinWeb-page')" class="table-row row-link main-row-link">
+                    <a onclick="switchPage('com-trianglesoftware-dunkinweb-page')" class="table-row row-link main-row-link">
                         <div class="pkg-row-layout">
-                            <img src="icons/LegacyDonuts.png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
+                            <img src="icons/Legacydonuts.png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
                             <div>
-                                LegacyDonuts
-                                <span class="pkg-subtitle">Fixes dunkin app on ios 5+</span>
+                                Legacydonuts
+                                <span class="pkg-subtitle">Dunkin App clone</span>
                             </div>
                         </div>
                     </a></div>
@@ -129,18 +138,18 @@
             </div>
         </div>
         
-                <div id="com-opennotifications-tweak-page" class="page-view">
+                <div id="com-trianglesoftware-TechMonthly-page" class="page-view">
                     <div class="back-nav-container">
                         <div onclick="switchPage('repo-main-page')" class="ios6-back-button"><span>Back</span></div>
                     </div>
                     <div class="header-section">
                         <div class="header-card" style="max-width: 100%; background: transparent; border: none; box-shadow: none; padding: 10px 0; flex-direction: column; gap: 12px; text-align: center;">
                             <div class="repo-icon-wrapper" style="border-radius: 18px; margin: 0 auto;">
-                                <img src="icons/Opennotifications.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
+                                <img src="icons/TechMonthly for ios 5.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
                             </div>
                             <div>
-                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">Opennotifications</div>
-                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">Allows you to send yourself and call message notifications</p>
+                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">TechMonthly for ios 5</div>
+                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">A techmonthly client for ios 5+</p>
                             </div>
                         </div>
                     </div>
@@ -157,18 +166,46 @@
                         </div>
                     </div>
                 </div>
-                <div id="com-trianglesoftware-DunkinWeb-page" class="page-view">
+                <div id="com-opennotifications-page" class="page-view">
                     <div class="back-nav-container">
                         <div onclick="switchPage('repo-main-page')" class="ios6-back-button"><span>Back</span></div>
                     </div>
                     <div class="header-section">
                         <div class="header-card" style="max-width: 100%; background: transparent; border: none; box-shadow: none; padding: 10px 0; flex-direction: column; gap: 12px; text-align: center;">
                             <div class="repo-icon-wrapper" style="border-radius: 18px; margin: 0 auto;">
-                                <img src="icons/LegacyDonuts.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
+                                <img src="icons/Opennotifications.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
                             </div>
                             <div>
-                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">LegacyDonuts</div>
-                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">Fixes dunkin app on ios 5+</p>
+                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">Opennotifications</div>
+                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">Allows you to send message and call notifications to yourself</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depiction-header">Features</div>
+                    <div class="table-group depiction-group">
+                        <div class="depiction-text-block">
+                            <ul class="depiction-list"></ul>
+                        </div>
+                    </div>
+                    <div class="depiction-header">Requirements</div>
+                    <div class="table-group depiction-group">
+                        <div class="depiction-text-block">
+                            <ul class="depiction-list"><li>mobilesubstrate, firmware (>= 5.0)</li></ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="com-trianglesoftware-dunkinweb-page" class="page-view">
+                    <div class="back-nav-container">
+                        <div onclick="switchPage('repo-main-page')" class="ios6-back-button"><span>Back</span></div>
+                    </div>
+                    <div class="header-section">
+                        <div class="header-card" style="max-width: 100%; background: transparent; border: none; box-shadow: none; padding: 10px 0; flex-direction: column; gap: 12px; text-align: center;">
+                            <div class="repo-icon-wrapper" style="border-radius: 18px; margin: 0 auto;">
+                                <img src="icons/Legacydonuts.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
+                            </div>
+                            <div>
+                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">Legacydonuts</div>
+                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">Dunkin App clone</p>
                             </div>
                         </div>
                     </div>

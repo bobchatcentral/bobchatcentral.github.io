@@ -7,14 +7,14 @@ Architectures: iphoneos-arm
 Components: main
 Description: Static architecture manifest mapping suite indices.
 MD5Sum:
- 76226b84059ba61f71a3dbd52c52499f 923 Packages
- 2fb003a0505649f4fbec0aeab5acd2a5 520 Packages.gz
- 04a36612d53a793bff12075c58667fb5 596 Packages.bz2
+ ab93740fba90b38da6227e4a3f88b20f 1370 Packages
+ fd5eaab33531cb31dc2718e6ff7755ab 648 Packages.gz
+ fd5eaab33531cb31dc2718e6ff7755ab 648 Packages.bz2
 SHA1:
- 614c48efd24bb22f929406843b915eb0c0ccd2e9 923 Packages
- 9f268af350b18e3de082a84d067db6e41383ebe9 520 Packages.gz
- e6f884c48e33d483c0ee69d1ee8e4a076ee74839 596 Packages.bz2
+ 331f27fe13eae93f92b9c7cfd1f21910c9cb46a6 1370 Packages
+ 3c50591d37b97a2a0425357de64ccc9feb85d48c 648 Packages.gz
+ 3c50591d37b97a2a0425357de64ccc9feb85d48c 648 Packages.bz2
 SHA256:
- 9107282b427920533f0b0a3aefd530e69a97815bf992a208729ab8c9cf82ae53 923 Packages
- 6f0b16585085f32a6fef682660eeea649931ac80d9dee40a4df95e8d3bcd08c6 520 Packages.gz
- acd1465c314361f26e4d5a02c6a4a6a8a67d8a3de505d424220246316ae689d0 596 Packages.bz2
+ 3073d52ed4d6492bb4ec51a1685fda8709a43aada12ddadef5a8e98a149a6e6b 1370 Packages
+ 6c0f6bd81001243dba714555a3e71b1dcc290c766e83e0ad99ee058f898162d3 648 Packages.gz
+ 6c0f6bd81001243dba714555a3e71b1dcc290c766e83e0ad99ee058f898162d3 648 Packages.bz2
